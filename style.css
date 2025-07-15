@@ -122,6 +122,16 @@ body {
   font-variant: small-caps;
   text-align: center;
 }
+@media (max-width:428px){
+  .container__title {
+    max-width: 428px;
+    height: 350px;
+  }
+  
+  .container__subtitle {
+    font-size: 35px;
+  }
+}
 
 @media (max-width:390px) {
   .container__title {
@@ -176,6 +186,7 @@ body {
 .container__content p {
   width: 400px;
   padding: 5px 0;
+  font-size: 32px;
 }
 
 
@@ -211,7 +222,18 @@ body {
 
   .tit {
     width: 660px;
-    height: 235px;
+    height: 290px;
+  }
+  
+}
+
+@media (max-width:428px){
+  .container__tit {
+    width: 420px;
+    font-size: 60px;
+  }
+  .tita{
+    height: 240px;
   }
 }
 
